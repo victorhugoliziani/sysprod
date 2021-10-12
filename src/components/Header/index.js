@@ -41,7 +41,7 @@ function Header() {
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link class="dropdown-item" to="/cor">Cor</Link></li>
-                                <li><Link class="dropdown-item" to="/tamanhos">Tamanho</Link></li>
+                                <li><Link class="dropdown-item" to="/tamanho">Tamanho</Link></li>
                             </ul>
                         </li>
                     </ul>
