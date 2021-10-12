@@ -1,0 +1,20 @@
+.page-categoria h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-categoria h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-categoria .btn-incluir {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.page-categoria table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-categoria table tbody tr td {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.page-tamanho h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-tamanho h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-tamanho .btn-incluir {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.page-tamanho table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-tamanho table tbody tr td {
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.navbar {
+    margin-bottom: 40px;
+}
+.navbar ul li a svg {
+    color: #000;
+    margin-right: 5px;
+}
+.navbar ul li {
+    margin-right: 10px;
+}
+.navbar ul li a {
+    color: #000 !important;
+    font-weight: 600;
+}

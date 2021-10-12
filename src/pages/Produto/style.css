@@ -1,0 +1,20 @@
+.page-produto h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-produto h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-produto .btn-incluir {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.page-produto table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-produto table tbody tr td {
+    text-align: center;
+}

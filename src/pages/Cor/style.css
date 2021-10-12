@@ -1,0 +1,20 @@
+.page-cor h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-cor h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-cor .btn-incluir {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.page-cor table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-cor table tbody tr td {
+    text-align: center;
+}
