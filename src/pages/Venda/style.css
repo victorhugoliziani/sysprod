@@ -1,0 +1,131 @@
+.page-venda h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-venda h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-venda .table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-venda .table tbody tr td {
+    text-align: center;
+}
+.table-global thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.table tbody tr td {
+    text-align: center;
+}
+
+.page-venda .group-pesquisa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-venda .group-cliente {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 25px 10px 10px 10px;
+}
+.page-venda .group-cliente::before {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    content: "Pesquisar cliente";
+    background-color: #fff;
+    font-weight: 600;
+}
+.group-cliente label {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.group-cliente input {
+    height: 30px;
+}
+.group-cliente button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.group-cliente button svg {
+    margin-right: 5px;
+}
+.group-produto {
+    position: relative;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 25px 10px 10px 10px;
+}
+.group-produto::before {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    content: "Pesquisar produto";
+    background-color: #fff;
+    font-weight: 600;
+}
+.group-produto label {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.group-produto input {
+    height: 30px;
+}
+.group-produto button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.group-produto button svg {
+    margin-right: 5px;
+}
+.page-venda .table-items {
+    margin-top: 60px;
+}
+.filtro {
+    float: left;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.filtro button {
+    float: right;
+    margin-top: 5px;
+}
+.modal-title {
+    width: 100%;
+}
+.modal-title .btn-fechar {
+    border-radius: 50%;
+    padding: 7px 8px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}

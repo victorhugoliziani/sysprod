@@ -1,0 +1,20 @@
+.page-cliente h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.page-cliente h3 svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.page-cliente .btn-incluir {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.page-cliente table thead tr th {
+    background-color: #ccc;
+    text-align: center;
+}
+.page-cliente table tbody tr td {
+    text-align: center;
+}

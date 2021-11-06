@@ -29,7 +29,8 @@ function Produto() {
         estoque: '',
         iD_CATEGORIA: '',
         iD_TAMANHO: '',
-        iD_COR: ''
+        iD_COR: '',
+        inserE_HISTORICO_ESTOQUE: true
     })
 
     const abriFecharModalIncluir = () => {
@@ -108,6 +109,17 @@ function Produto() {
     }
 
     const atualizarProduto = async() => {
+
+        let estoqueModificado = false;
+
+        data.filter(produto => {
+            if(produto.iD_PRODUTO === produtoSelecionado.iD_PRODUTO) {
+                if(produto.estoque != produtoSelecionado.estoque) {
+                    estoqueModificado = true;
+                }
+            }
+        });
+
         axios.put(baseURL+"/"+produtoSelecionado.iD_PRODUTO, produtoSelecionado)
         .then(response => {
             var resposta = response.data;
@@ -121,6 +133,7 @@ function Produto() {
                     produto.iD_CATEGORIA = resposta.iD_CATEGORIA;
                     produto.iD_TAMANHO = resposta.iD_TAMANHO;
                     produto.iD_COR = resposta.iD_COR;
+                    produto.inserE_HISTORICO_ESTOQUE = estoqueModificado;
                 }
             });
             abrirFecharModalEditar();
