@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faProjectDiagram, faTags, faUser  } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faProjectDiagram, faTags, faUser, faCartPlus  } from "@fortawesome/free-solid-svg-icons";
 
 
 function Header() {
@@ -39,6 +39,12 @@ function Header() {
                             <Link to="/cliente" class="nav-link">
                                 <FontAwesomeIcon icon={faUser} />
                                 Cliente
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/venda" class="nav-link">
+                                <FontAwesomeIcon icon={faCartPlus} />
+                                Venda
                             </Link>
                         </li>
                         <li class="nav-item dropdown">
